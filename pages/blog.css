@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,800;1,400&display=swap");
+
+* {
+  /*asterisk meaning, lahat*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono";
+}
+
+/* STYLE NG MAIN */
+main {
+  width: 100vw;
+  height: auto;
+  background-color: white;
+  padding: 2%;
+}
+
+/* NAV BAR AREA */
+nav {
+  border-radius: 9px;
+  background-color: #1e1e2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  color: white;
+}
+
+nav h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links ul {
+  color: white;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  margin: 14px;
+}
+
+/* ARTICLES */
+.link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.maria {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  padding: 13px;
+  height: auto;
+  border: 3px;
+}
+a {
+  text-decoration: underline;
+  color: black;
+}
+.maria img {
+  display: flex;
+  margin: auto;
+  padding: 13px;
+  width: 700px;
+  height: auto;
+  border: 5px solid black;
+}

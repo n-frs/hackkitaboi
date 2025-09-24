@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,800;1,400&display=swap");
+/*nag-import ng font from google fonts*/
+* {
+  /*asterisk meaning, lahat*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono";
+}
+
+/* STYLE NG MAIN */
+main {
+  width: 100vw;
+  height: auto;
+  background-color: white;
+  padding: 2%;
+}
+/* NAV BAR AREA */ 
+nav {
+  border-radius: 9px;
+  background-color: #1e1e2e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  color: white;
+}
+
+.nav-links ul {
+  color: white;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  margin: 14px;
+}
+
+/* EMPHASIZED AREA */
+.row {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-2 {
+  width: 700px;
+  margin: auto;
+  align-items: center;
+  width: 60vw;
+}
+
+.row-2 p {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 9px 9px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.col-1 {
+  flex-basis: 30%; /*kung ilang percent ang kinukuha sa main*/
+}
+
+.col-1 h1 {
+  justify-content: center;
+}
+
+.col-2 img {
+  size: auto;
+  padding: 6px;
+  margin: auto;
+  margin-top: 30px;
+  width: 510px;
+}
+
+/* FOOTER, PINAKA BABA NG WEBSITE (MALAMANG) */
+footer {
+  font-size: 10px;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
